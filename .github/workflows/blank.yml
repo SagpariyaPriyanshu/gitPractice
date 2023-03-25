@@ -1,0 +1,8 @@
+name : hello-world
+'on' : [wrokflow_dispatch]
+jobs :
+  my-job:
+    runs-on : ubantu-latest
+    steps:
+      name: my-step
+      run : echo "Hello World"
